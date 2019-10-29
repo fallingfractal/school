@@ -10,3 +10,15 @@
 [submodule "goldbachsconjecture"]
 	path = goldbachsconjecture
 	url = https://github.com/fallingfractal/goldbachsconjecture.git
+[submodule "SoftwareEngineering2Project"]
+	path = SoftwareEngineering2Project
+	url = https://github.com/kmn5409/Software_Engineering_2.git
+[submodule "Theoryofcomputingassignment1"]
+	path = Theoryofcomputingassignment1
+	url = https://github.com/kmn5409/COMP_3602.git
+[submodule "OS"]
+	path = OS
+	url = https://github.com/kmn5409/COMP_2604_Operating_Systems.git
+[submodule "Webproject"]
+	path = Webproject
+	url = https://github.com/kmn5409/INFO_2602_Project.git
