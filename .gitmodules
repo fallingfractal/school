@@ -1,3 +1,12 @@
 [submodule "UWICSGIT"]
 	path = UWICSGIT
 	url = https://github.com/fallingfractal/UWICSGIT.git
+[submodule "INFO2602"]
+	path = INFO2602
+	url = https://github.com/fallingfractal/Info2602.git
+[submodule "fib"]
+	path = fib
+	url = https://github.com/fallingfractal/Fibonacci-Terms.git
+[submodule "goldbachsconjecture"]
+	path = goldbachsconjecture
+	url = https://github.com/fallingfractal/goldbachsconjecture.git
