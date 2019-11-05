@@ -1,16 +1,10 @@
-#Grab a digit image from any website and make a prediction
-from PIL import Image
-import requests
-from io import BytesIO
-response = requests.get("https://vignette.wikia.nocookie.net/phobia/images/f/fe/7.jpg/revision/latest?cb=20170121103340")
+response = requests.get("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHxYIqK7sMIutrKymkSEGQZq5l3odm_RxdI8i4_N3TrnN5wMAkQ&s")
 img = Image.open(BytesIO(response.content)).convert("L")
 plt.imshow(img)
-plt.show()
 
 img = img.resize((28,28))
-im2arr = np.array(img)
-im2arr = im2arr.reshape(1,784)
-model = load_model("model.h5")
-predictions = model.predict(im2arr)
-print(predictions)
+img2 = np.array(img)
+img2 = img2.reshape(1,784)
+predictions = model.predict(img2)
+#print(predictions)
 print(np.argmax(predictions, axis=1))
